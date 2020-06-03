@@ -1,0 +1,10 @@
+#victory {
+  background-color: yellow;
+  border-left: 2px dotted green;
+  border-right: 3px solid red;
+  border-bottom: 1px solid black;
+  width: 300px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 100px;
+}
