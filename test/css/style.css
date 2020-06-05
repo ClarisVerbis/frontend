@@ -1,0 +1,69 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  width: 480px;
+  height: 480px;
+  background-color: green;
+  margin: 0 auto;
+  outline: 2px dashed black;
+  outline-offset: -15px;
+  padding: 20px;
+}
+
+.block > h1 {
+  color: yellow;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.yellow > table {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.yellow > table tr:nth-child(1) td:nth-child(1) {
+  background-color: red;
+}
+
+.yellow > table tr:nth-child(1) td:nth-child(2) {
+  background-color: green;
+}
+
+.yellow > table tr:nth-child(1) td:nth-child(3) {
+  background-color: blue;
+}
+
+.yellow > table tr:nth-child(2) td:nth-child(1) {
+  background-color: yellow;
+}
+
+.yellow > table tr:nth-child(2) td:nth-child(2) {
+  background-color: orange;
+}
+
+.yellow > table tr:nth-child(2) td:nth-child(3) {
+  background-color: violet;
+}
+
+.yellow > table tr:nth-child(3) td:nth-child(1) {
+  background-color: purple;
+}
+
+.yellow > table tr:nth-child(3) td:nth-child(2) {
+  background-color: pink;
+}
+
+.yellow > table tr:nth-child(3) td:nth-child(3) {
+  background-color: brown;
+}
