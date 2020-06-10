@@ -34,36 +34,45 @@ html, body {
 
 .yellow > table tr:nth-child(1) td:nth-child(1) {
   background-color: red;
+  border: 2px solid blue;
 }
 
 .yellow > table tr:nth-child(1) td:nth-child(2) {
   background-color: green;
+  border: 2px solid yellow;
 }
 
 .yellow > table tr:nth-child(1) td:nth-child(3) {
   background-color: blue;
+  border: 2px solid red; 
 }
 
 .yellow > table tr:nth-child(2) td:nth-child(1) {
   background-color: yellow;
+  border: 2px solid black;
 }
 
 .yellow > table tr:nth-child(2) td:nth-child(2) {
   background-color: orange;
+  border: 2px solid pink;
 }
 
 .yellow > table tr:nth-child(2) td:nth-child(3) {
   background-color: violet;
+  border: 2px solid green;
 }
 
 .yellow > table tr:nth-child(3) td:nth-child(1) {
   background-color: purple;
+  border: 2px solid white;
 }
 
 .yellow > table tr:nth-child(3) td:nth-child(2) {
   background-color: pink;
+  border: 2px solid orange;
 }
 
 .yellow > table tr:nth-child(3) td:nth-child(3) {
   background-color: brown;
+  border: 2px solid violet;
 }

@@ -1,0 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#block {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  margin-top: 20px;
+  position: absolute;
+}

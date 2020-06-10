@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+}
+
+.block1 {
+  width: 300px;
+  height: 600px;
+  float: left;
+  background-color: yellow;
+  font-style: italic;
+  overflow-y: scroll;
+}
+
+.block1 li {
+  cursor: pointer;
+}
+
+.block1 ol ol {
+  list-style: upper-roman;
+  color: green;
+}
+
+.block2 {
+  width: 600px;
+  height: 200px;
+  float: left;
+  background-image: url(../images/block2.png);
+}
+
+.block2 > h1 {
+  text-align: center;
+}
+
+.block3 {
+  width: 600px;
+  height: 400px;
+  float: left;
+  background-image: url(../images/calendar.png);
+  background-size: 40px;
+  background-repeat: repeat-x;
+  text-align: right;
+}
+
+.block3 a:link {
+  color: green;
+  text-decoration: none;
+}
+
+.block3 a:hover {
+  color: red;
+  background-color: grey;
+  text-transform: uppercase;
+}
+
+.block3 a:visited {
+  background-color: yellow;
+}
