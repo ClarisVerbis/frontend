@@ -9,3 +9,4 @@ Front-end lesson
 * [Завдання 6.](https://github.com/ClarisVerbis/frontend/tree/master/menu) Завдання по створенню меню
 * [Завдання 7.](https://github.com/ClarisVerbis/frontend/tree/master/test) Контрольна робота по HTML та CSS
 * [Завдання 8.](https://github.com/ClarisVerbis/frontend/tree/master/js1) Завдання по JavaScript
+* [Завдання 9.](https://github.com/ClarisVerbis/frontend/tree/master/corporateblue) Верстання макету Corporate Blue
