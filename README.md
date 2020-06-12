@@ -8,3 +8,4 @@ Front-end lesson
 * [Завдання 5.](https://github.com/ClarisVerbis/frontend/tree/master/css2) Завдання по CSS №2
 * [Завдання 6.](https://github.com/ClarisVerbis/frontend/tree/master/menu) Завдання по створенню меню
 * [Завдання 7.](https://github.com/ClarisVerbis/frontend/tree/master/test) Контрольна робота по HTML та CSS
+* [Завдання 8.](https://github.com/ClarisVerbis/frontend/tree/master/js1) Завдання по JavaScript
