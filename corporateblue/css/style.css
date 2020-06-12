@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/background.png);
+  border-top: 2px solid #7e7e7e;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  height: 800px;
+  outline: 1px solid black;
+}
