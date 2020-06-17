@@ -9,5 +9,40 @@ html, body {
   width: 960px;
   margin: 0 auto;
   height: 800px;
-  outline: 1px solid black;
+}
+
+section.header > .top {
+  padding-top: 25px;
+}
+
+section.header > .top > .search {
+  float: right;
+  padding: 0;
+  padding-top: 2px;
+  position: relative;
+  width: 199px;
+}
+
+section.header > .top > .search > input[type="text"] {
+  background-color: #f3f3f3;
+  border: 0;
+  outline: 1px solid #e7e7e7;
+  padding: 0;
+  padding-left: 10px;
+  margin: 0;
+  width: 147px;
+  height: 30px;
+}
+
+section.header > .top > .search > button {
+  padding: 0;
+  margin: 0;
+  width: 42px;
+  height: 32px;
+  background-color: #29c5e6;
+  color: #fff;
+  border: 0;
+  position: absolute;
+  top: 1px;
+  font-family: 'Oswald';
 }
