@@ -142,6 +142,7 @@ section.banner > .banner-navigation > ul {
   padding: 0;
   list-style: none;
   display: flex;
+  counter-reset: section;
 }
 
 section.banner > .banner-navigation > ul > li {
@@ -152,15 +153,96 @@ section.banner > .banner-navigation > ul > li {
   font-weight: 300;
   text-transform: uppercase;
   color: #8f8f8f;
+  letter-spacing: 1px;
 }
 
-section.banner > .banner-navigation > ul > li:before {
+section.banner > .banner-navigation > ul > li::before {
+  counter-increment: section;
+  content: counter(section);
   display: block;
   width: 24px;
   height: 24px;
   background-color: #8f8f8f;
+  float: left;
+  margin-right: 11px;
+  margin-left: 12px;
+  margin-top: 13px;
+  color: #f8f8f8;
+  line-height: 24px;
+  text-align: center;
 }
 
 section.banner > .banner-navigation > ul > li.active {
   color: #29c5e6;
+}
+
+section.banner > .banner-navigation > ul > li.active::before {
+  background-color: #29c5e6;
+}
+
+/* MAIN */
+section.main {
+  margin-top: 30px;
+}
+
+section.main .title {
+  background-image: url(../images/pattern.png);
+}
+
+section.main .title > h1 {
+  color: #7e7e7e;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  background-image: url(../images/background.png);
+  display: inline-block;
+  margin: 0;
+}
+
+section.main .title > h1::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #29c5e6;
+  float: left;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
+section.main .title > h1::after {
+  content: '\00a0\00a0\00a0';
+}
+
+section.main > .col-1 {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+section.main > .col-1 > .about,
+section.main > .col-1 > .ceo {
+  width: 460px;
+}
+
+section.main > .col-2 {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+section.main > .col-2 > .services,
+section.main > .col-2 > .teams,
+section.main > .col-2 > .support {
+  width: 300px;
+}
+
+section.main > .col-3 {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+section.main > .col-3 > .clients {
+  width: 940px;
 }
